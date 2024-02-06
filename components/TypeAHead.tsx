@@ -91,7 +91,7 @@ const TypeAhead = () => {
                     <h3 className={styles.filmTitle}>{result.film_title} ({new Date(result.release_date).getFullYear()})</h3>
                     <p className={styles.filmInfo}>Director: {result.director}</p>
                     <p className={styles.filmInfo}>Producer: {result.producer}</p>
-                    <p className={styles.filmInfo}>Characters: {result.character_names.join(', ') || 'N/A'}</p>
+                    <p className={styles.filmInfo}>Characters: {result.character_names ? result.character_names.join(', ') : 'N/A'}</p>
                   </div>
                 </div>
               ))}
