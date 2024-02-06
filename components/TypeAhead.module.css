@@ -1,0 +1,64 @@
+.searchInput {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .searchResults {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    width: calc(100% - 20px);
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: black;
+  }
+  
+  .searchResultCard {
+    margin-top: 10px;
+  }
+  
+  .filmCard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  }
+
+  .filmTextSection{
+    margin-left: 20px;
+  }
+  
+  .filmCard:last-child {
+    border-bottom: none;
+  }
+  
+  .filmCard img {
+    width: 150px;
+  height: auto;
+  margin-right: 10px;
+  }
+  
+  .filmCard h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .filmCard p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  
